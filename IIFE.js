@@ -6,6 +6,7 @@
         } 
      }
 })([1,2,3,4]);
+
 //OUTPUT : 1
            3
 
@@ -17,6 +18,7 @@
     }
     console.log(str.join(' '));
 })("hello there how are you")
+               
 //OUTPUT : Hello There How Are You
                
 //3 Sum of all numbers in an array
@@ -27,6 +29,7 @@
     }
     console.log(sum);
 })()
+               
 //OUTPUT : 15
                
 //4 Return all the prime numbers in an array
@@ -42,6 +45,7 @@
     
     console.log(primeNum);
 })()
+               
 //OUTPUT : [7, 3]
                
 //5 Return all the palindromes in an array
@@ -54,6 +58,7 @@
       }
     });
 })()
+
 //OUTPUT : racecar
            malayalam
 
@@ -74,6 +79,7 @@
     }
     
 })()
+               
 //OUTPUT : 19
                
 //7 Remove duplicates from an Array
@@ -85,6 +91,7 @@
     
     console.log(duplicates);
 })()
+               
 //OUTPUT : [2, 5]
                
 //8 Rotate an array by K times
@@ -98,4 +105,5 @@
     }
   console.log(A)
 })([1,2,3,4,5],2)
+
 //OUTPUT : [4, 5, 1, 2, 3]
