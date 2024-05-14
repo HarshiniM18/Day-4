@@ -52,8 +52,7 @@ let str = function () {
     });
   }
   isPalindrome()
-//OUTPUT : viicc
-           racecar
+//OUTPUT : racecar
            malayalam
 
 //6 Return median of two sorted arrays of same size
