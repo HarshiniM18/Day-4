@@ -6,6 +6,7 @@ let odd = function () {
   console.log(odd)
 }
 odd()
+//OUTPUT : [1, 3, 5, 7, 9]
 
 //2 Convert all the strings to title caps in a string array
 let str = function () {
@@ -14,6 +15,7 @@ let str = function () {
     console.log(titlecase)
   }
   str()
+//OUTPUT : Hello There How Are You
 
 //3 Sum of all numbers in an array 
   let func = function () {
@@ -25,6 +27,7 @@ let str = function () {
     console.log(sum);
   }
   func()
+//OUTPUT : 15
 
 //4 Return all the prime numbers in an array
   let prime = function (arr) {
@@ -36,6 +39,7 @@ let str = function () {
     });
   };
   console.log(prime([7, 16, 9, 3]));
+//OUTPUT : [7, 3]
 
 //5 Return all the palindromes in an array
   let isPalindrome = function () {
@@ -48,6 +52,9 @@ let str = function () {
     });
   }
   isPalindrome()
+//OUTPUT : viicc
+           racecar
+           malayalam
 
 //6 Return median of two sorted arrays of same size
   let median = function(a, b) {
@@ -66,6 +73,7 @@ let str = function () {
   let arr1 = [1, 12, 15, 26, 38,24];
   let arr2 = [2, 13, 17, 30, 45, 47];
   console.log(median(arr1, arr2));
+//OUTPUT : 16.5
 
 //7 Remove duplicates from an Array
   let findDuplicates = function () {
@@ -81,6 +89,7 @@ let str = function () {
     console.log(duplicates) 
 }
 findDuplicates()
+//OUTPUT : [1, 5]
 
 //8 Rotate an array by K times
 let rotateArray =function(A, K) {
@@ -94,3 +103,4 @@ let rotateArray =function(A, K) {
   console.log(A)
 }
 rotateArray([1,2,3,4,5],2)
+//OUTPUT : [4, 5, 1, 2, 3]
