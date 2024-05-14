@@ -6,6 +6,8 @@
         } 
      }
 })([1,2,3,4]);
+//OUTPUT : 1
+           3
 
 //2 Convert all the strings to title caps in a string array
 (function (str) {
@@ -15,7 +17,8 @@
     }
     console.log(str.join(' '));
 })("hello there how are you")
-
+//OUTPUT : Hello There How Are You
+               
 //3 Sum of all numbers in an array
 (function () {
     let sum = [1, 2, 3, 4].reduce(add, 5);
@@ -24,7 +27,8 @@
     }
     console.log(sum);
 })()
-
+//OUTPUT : 15
+               
 //4 Return all the prime numbers in an array
 (function (){
     var primeNum = [7, 16, 9, 3]
@@ -38,7 +42,8 @@
     
     console.log(primeNum);
 })()
-
+//OUTPUT : [7, 3]
+               
 //5 Return all the palindromes in an array
 (function(){
     var myArray = ['viicc', 'racecar', 'honda', 'malayalam'];
@@ -49,6 +54,8 @@
       }
     });
 })()
+//OUTPUT : racecar
+           malayalam
 
 //6 Return median of two sorted arrays of same size
 (function(){
@@ -67,7 +74,8 @@
     }
     
 })()
-    
+//OUTPUT : 19
+               
 //7 Remove duplicates from an Array
 (function(){
   
@@ -77,7 +85,8 @@
     
     console.log(duplicates);
 })()
-
+//OUTPUT : [2, 5]
+               
 //8 Rotate an array by K times
 (function(A, K){
     if (A.length === K || K === 0) {
@@ -89,3 +98,4 @@
     }
   console.log(A)
 })([1,2,3,4,5],2)
+//OUTPUT : [4, 5, 1, 2, 3]
